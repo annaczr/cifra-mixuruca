@@ -1,6 +1,6 @@
 def cifrarLetra (chave, letra):
-  #variáveis e pá
-  alfabeto = 'abcdefghijklmnopqrstuvwxyz'
+  # variáveis e pá
+  letrasAlfabeto = 'abcdefghijklmnopqrstuvwxyz'
   indice = alfabeto.index(letra)
 
   #decisão meio mixuruca
