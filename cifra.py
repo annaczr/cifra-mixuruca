@@ -1,16 +1,16 @@
 def cifrarLetra (chave, letra):
   # variáveis e pá
   letrasAlfabeto = 'abcdefghijklmnopqrstuvwxyz'
-  indice = alfabeto.index(letra)
+  indice = letrasAlfabeto.index(letra)
 
   #decisão meio mixuruca
-  if(indice + chave >= len(alfabeto)):
-    novaChave = (indice + chave) - len(alfabeto)
+  if(indice + chave >= len(letrasAlfabeto)):
+    novaChave = (indice + chave) - len(letrasAlfabeto)
     print(novaChave)
-    letracifrada = alfabeto[novaChave]
+    letracifrada = letrasAlfabeto[novaChave]
 
   else:
-    letracifrada = alfabeto[indice + chave]
+    letracifrada = letrasAlfabeto[indice + chave]
 
   return letracifrada
 
